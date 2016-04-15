@@ -1,0 +1,6 @@
+Write-Host "Start demo"
+Get-Module
+Get-Module –ListAvailable
+Get-Module PSReadline | Format-List *
+Import-Module Azure
+Get-Command –Module Azure 

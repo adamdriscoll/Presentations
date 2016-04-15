@@ -1,0 +1,5 @@
+Write-Host "Start demo"
+Get-Help Get-Process
+Get-Help Get-Process -Detailed 
+Get-Help about_signing
+Update-Help 

@@ -1,0 +1,4 @@
+1. Get a list of processes that are using more than 100mb of RAM
+2. Display all services and their state in a table.
+3. Update the help on your machine. Find and use the command to display command history in your prompt. 
+4. List all modules currently installed on your machine.

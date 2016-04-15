@@ -1,0 +1,11 @@
+Write-Host "Start demo"
+Set-Location 'C:\Users\adriscoll\Dropbox\Presentations\2016 - 4 Illinois Valley User Group Spring Tech Conf\1 - PowerShell Basics'
+Get-ChildItem 
+Ls
+Dir
+Mkdir test 
+Dir
+CD HKLM:\
+Dir 
+CD Cert:\
+Dir

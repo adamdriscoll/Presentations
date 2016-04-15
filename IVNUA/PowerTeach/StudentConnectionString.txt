@@ -1,0 +1,1 @@
+Endpoint=sb://driscoll.servicebus.windows.net/;SharedAccessKeyName=sender;SharedAccessKey=RaiiD7PCI2FOLwbkwzlws+P9aoMacKHIADKIBGIX8lw=;EntityPath=powerteach492016

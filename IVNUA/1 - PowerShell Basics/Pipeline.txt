@@ -1,0 +1,7 @@
+Write-Host "Starting Demo"
+Get-Process | Select –ExpandProperty Name | Sort-Object
+Start-Process Notepad
+Get-Process Notepad | Stop-Process 
+Get-Process | Where CPU –gt 10
+Start-Process Notepad
+Get-Process Notepad | ForEach-Object { $_.WaitForExit() } 

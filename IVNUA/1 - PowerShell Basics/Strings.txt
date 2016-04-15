@@ -1,0 +1,8 @@
+Write-Host "Starting demo"
+$MyLiteralString = 'Literal String'
+$MyLiteralString
+$ExpandableString = "This contains my literal string: $MyLiteralString"
+$ExpandableString
+$ExpandableString | Get-Member
+$ExpandableString.Length
+$ExpandableString.Substring(5)
