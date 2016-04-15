@@ -5,6 +5,11 @@ Get-Job
 Start-Job { Start-Sleep -Seconds 10 } 
 Get-Job
 Get-Job | Remove-Job 
+Start-Job { Start-Sleep -Seconds 10 } 
+Start-Job { Start-Sleep -Seconds 10 } 
+Start-Job { Start-Sleep -Seconds 10 } 
+Get-Job | Wait-Job
+Get-Job | Remove-Job
 Invoke-Command { Get-Service } -AsJob
 Invoke-Command { Get-Service } -AsJob -ComputerName IP
 $Trigger = New-ScheduledJobTrigger -Once -At 13:30

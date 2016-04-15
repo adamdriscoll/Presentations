@@ -9,8 +9,8 @@ function Get-Light {
         .PARAMETER Name 
             The name of the light to retrieve 
     #>
-    [CmdletBinding(ValueFromPipeline=$true)]
-    param([Parameter(Mandatory)][string]$Name)
+    [CmdletBinding()]
+    param([Parameter(Mandatory, ValueFromPipeline=$true)][string]$Name)
 
     begin {
         
@@ -26,8 +26,8 @@ function Get-Light {
 }
 
 function Set-Light {
-    [CmdletBinding(ValueFromPipeline=$true, SupportsShouldProcess = $true)]
-    param([Parameter(Mandatory)][string]$Name,
+    [CmdletBinding(SupportsShouldProcess = $true)]
+    param([Parameter(Mandatory, ValueFromPipeline=$true)][string]$Name,
           [Parameter(Mandatory)][ValidateSet('ON', 'OFF')]$State)
 
     begin {
