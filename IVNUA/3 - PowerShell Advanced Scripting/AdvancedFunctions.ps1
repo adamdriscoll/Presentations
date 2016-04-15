@@ -26,7 +26,7 @@ function Get-Light {
 }
 
 function Set-Light {
-    [CmdletBinding(SupportsShouldProcess = $true)]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
     param([Parameter(Mandatory, ValueFromPipeline=$true)][string]$Name,
           [Parameter(Mandatory)][ValidateSet('ON', 'OFF')]$State)
 

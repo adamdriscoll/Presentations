@@ -4,8 +4,6 @@ Get-DscResource
 
 start https://www.powershellgallery.com/items
 
-#Maybe? Enable-PSRemoting -SkipNetworkProfileCheck
-
 [DSCLocalConfigurationManager()]
 configuration LCMConfig
 {
@@ -43,14 +41,16 @@ Configuration DemoBoxConfiguration {
 #Generate the MOF file
 DemoBoxConfiguration
 
-code .\DemoBoxConfiguration\localhost.mof
+notepad .\DemoBoxConfiguration\localhost.mof
 
-#Test-DscConfiguration .\DemoBoxConfiguration
+Test-DscConfiguration .\DemoBoxConfiguration
 
 Start-DscConfiguration .\DemoBoxConfiguration -Force
 
 Get-WinEvent -LogName "Microsoft-Windows-Dsc/Operational"
 
+start C:\demo
+
 start 'C:\program files\windowspowershell\modules\xWebAdministration\1.10.0.0\DSCResources\MSFT_xIisFeatureDelegation'
 
-start 'C:\Users\Adam\Dropbox\Presentations\2016 - 4 Illinois Valley User Group Spring Tech Conf\5 - PowerShell Datacenter Utilities\Light' 
+start 'C:\Users\adriscoll\Documents\GitHub\Presentations\IVNUA\5 - PowerShell Datacenter Utilities\Light' 
