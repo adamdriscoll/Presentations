@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "2d917c0d23de4070a7fd4b8e36ed88b408669d25"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Demo3/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1",
+          "PowerShellStandard.Library": "5.1.0-preview-02"
+        },
+        "runtime": {
+          "Demo3.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PowerShellStandard.Library/5.1.0-preview-02": {
+        "runtime": {
+          "lib/netstandard2.0/System.Management.Automation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "PowerShellStandard.Library/5.1.0-preview-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xxMZKbatPZHtY8tQG/gjToiHo0nT8enGntC4H0mwFQX7R0GcladVdeof0U+xjzWKOcwbr0vKauf6/KlUQl0OBw==",
+      "path": "powershellstandard.library/5.1.0-preview-02",
+      "hashPath": "powershellstandard.library.5.1.0-preview-02.nupkg.sha512"
+    }
+  }
+}
