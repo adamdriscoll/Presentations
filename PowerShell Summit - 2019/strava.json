@@ -1,0 +1,128 @@
+[
+    {
+        "type": "run",
+        "start_time": "04-29-2019",
+        "distance": 4.24,
+        "moving_time": 2367,
+        "id": 2329106937
+    },
+    {
+        "type": "run",
+        "start_time": "04-28-2019",
+        "distance": 11.01,
+        "moving_time": 6185,
+        "id": 2326846623
+    },
+    {
+        "type": "run",
+        "start_time": "04-25-2019",
+        "distance": 5.66,
+        "moving_time": 3024,
+        "id": 2318987900
+    },
+    {
+        "type": "ride",
+        "start_time": "04-24-2019",
+        "distance": 14.67,
+        "moving_time": 2228,
+        "id": 2316714248
+    },
+    {
+        "type": "ride",
+        "start_time": "04-24-2019",
+        "distance": 15.12,
+        "moving_time": 3400,
+        "id": 2316504076
+    },
+    {
+        "type": "ride",
+        "start_time": "04-19-2019",
+        "distance": 3.52,
+        "moving_time": 792,
+        "id": 2303188841
+    },
+    {
+        "type": "ride",
+        "start_time": "04-19-2019",
+        "distance": 27.06,
+        "moving_time": 5700,
+        "id": 2303188698
+    },
+    {
+        "type": "run",
+        "start_time": "04-18-2019",
+        "distance": 6.37,
+        "moving_time": 3533,
+        "id": 2300528468
+    },
+    {
+        "type": "ride",
+        "start_time": "04-16-2019",
+        "distance": 27.09,
+        "moving_time": 5400,
+        "id": 2295394923
+    },
+    {
+        "type": "run",
+        "start_time": "04-15-2019",
+        "distance": 4.23,
+        "moving_time": 2239,
+        "id": 2292822273
+    },
+    {
+        "type": "ride",
+        "start_time": "04-14-2019",
+        "distance": 32.62,
+        "moving_time": 8220,
+        "id": 2290541781
+    },
+    {
+        "type": "ride",
+        "start_time": "04-11-2019",
+        "distance": 15.17,
+        "moving_time": 3192,
+        "id": 2283143412
+    },
+    {
+        "type": "run",
+        "start_time": "04-10-2019",
+        "distance": 5.21,
+        "moving_time": 3110,
+        "id": 2280702970
+    },
+    {
+        "type": "run",
+        "start_time": "04-7-2019",
+        "distance": 7.77,
+        "moving_time": 3607,
+        "id": 2273505513
+    },
+    {
+        "type": "ride",
+        "start_time": "04-6-2019",
+        "distance": 21.62,
+        "moving_time": 5400,
+        "id": 2270529625
+    },
+    {
+        "type": "ride",
+        "start_time": "04-4-2019",
+        "distance": 16.70,
+        "moving_time": 4980,
+        "id": 2265775457
+    },
+    {
+        "type": "run",
+        "start_time": "04-3-2019",
+        "distance": 7.41,
+        "moving_time": 3900,
+        "id":2263350451
+    },
+    {
+        "type": "run",
+        "start_time": "04-1-2019",
+        "distance": 3.13,
+        "moving_time": 1663,
+        "id": 2258401332
+    }
+]
