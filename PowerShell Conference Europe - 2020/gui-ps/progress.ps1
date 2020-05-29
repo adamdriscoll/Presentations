@@ -1,0 +1,1 @@
+1..100 | % { Write-Progress -PercentComplete $_ -Activity "test"; sleep -Milliseconds 100 }
