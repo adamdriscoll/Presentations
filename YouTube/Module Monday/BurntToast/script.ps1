@@ -1,0 +1,1 @@
+"Hello, world!" | Out-File $PSScriptRoot\hello.txt
